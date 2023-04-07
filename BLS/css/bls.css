@@ -1,0 +1,443 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Cafe24Oneprettynight";
+    src: url(../font/Cafe24Oneprettynight/Cafe24Oneprettynight.woff) format("woff");
+}
+@font-face {
+    font-family: "NanumSquare";
+    src: url(../font/NanumSquare/NanumSquareR.woff) format("woff");
+}
+@font-face {
+    font-family: "Courgette-Regular";
+    src: url(../font/Courgette/Courgette-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "Pretendard-1.3.6";
+    src: url(../font/Pretendard-1.3.6/public/static/Pretendard-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "NanumMyeongjo-Regular";
+    src: url(../font/NanumMyeongjo-Regular.woff) format("woff");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.entire {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    /* background-color: #a8aebd; */
+    background-color: #b4bed6;
+    /* background-image: url(../images/—Pngtree—water_374760\ 복사.png); */
+    background-image: url(../images/—Pngtree—falling\ crystal\ clear\ water\ droplets_5449126.png);
+    background-size: cover;
+    background-position: center;
+}   
+header {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.logo {
+    width: 150px;
+    margin-left: 20px;
+}
+.logo img {
+    width: 150px;
+    height: 32px;
+}
+.logo p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.nav_menu {
+    width: 100%;
+}
+.nav_menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+.nav_menu ul li {
+    padding-left: 20px;
+}
+.nav_menu ul li a {
+    display: block;
+    color: #fff;
+}
+.nav_menu ul li span {
+    display: block;
+    color: #fff;
+}
+.submenuopen {
+    cursor: pointer;
+    margin-right: 20px;
+}
+.submenu_box {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    height: 200px;
+    margin: 0 auto;
+}
+.submenu_warp {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* padding: 50px 100px; */
+    background-color: rgba(0,0,0,0.75);
+    color: #232323;
+    z-index: 10;
+    overflow: hidden;
+    display: none;
+}
+.submenu {
+    width: 1400px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.submenu p {
+    text-align: center;
+    color: #25396a;
+    font-weight: bold;
+    padding: 5px;
+}
+.submenu ul li {
+    text-align: center;
+    line-height: 37px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.submenu ul li h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #25396a;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+.submenu ul li a {
+    color: #6880b9;
+}
+.submenu ul li a:hover {
+    color: #25396a;
+    border-bottom: 1px solid #25396a;
+}
+.xbutton {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.model {
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+    width: 362px;
+    height: 581px;
+    background-image: url(../images/msg-model.png);
+    background-size: cover;
+}
+.banner_ment {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #fff;
+}
+.banner_ment span {
+    display: block;
+    font-size: 45px;
+    font-family: "Cafe24Oneprettynight";
+    padding-top: 10px;
+}
+.banner_ment img {
+    padding-top: 30px;
+}
+.Point {
+    position: absolute;
+    top: 130px;
+    right: 50px;
+    width: 120px;
+    height: 350px;
+    border: 2px solid #ebebeb;
+    border-radius: 30px;
+    background-color: rgba(233, 233, 233, 0.8);
+}
+.Point ul li {
+    text-align: center;
+    line-height: 55px;
+    cursor: pointer;
+    font-family: "Cafe24Oneprettynight";
+    font-size: 16px;
+    font-weight: bold;
+}
+.Point ul li p {
+    color: #25396a;
+}
+.Point ul li a {
+    color: #656565;
+}
+.Point ul li a:hover {
+    color: #25396a;
+    border-bottom: 1px solid #25396a;
+}
+.search_wrap {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+}
+.search {
+    position: relative;
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+}
+.search input {
+    width: 600px;
+    height: 50px;
+    outline: none;
+    border: 5px solid #9ca5bc;
+    font-size: 18px;
+}
+.search img {
+    position: absolute;
+    top: 42%;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.Lifting {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #949fb9;
+}
+.Lifting_model {
+    position: absolute;
+    right: 250px;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/20230201160110_16.png);
+    background-size: cover;
+    background-position: center;
+}
+.lifting_ment {
+    position: absolute;
+    text-align: center;
+    line-height: 100px;
+    left: 10%;
+    top: 30%;
+    color: #fff;
+}
+.lifting_ment h1 {
+    font-size: 90px;
+    font-family: "Courgette-Regular";
+    font-weight: lighter;
+}
+.lifting_ment p {
+    font-size: 32px;
+    font-family: "Cafe24Oneprettynight";
+}
+
+.Introduction {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    height: 610px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.Introduction_ment {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.Introduction_box {
+    position: absolute;
+    left: 20%;
+    bottom: 100px;
+}
+.Introduction_box ul {
+    display: flex;
+    justify-content: center;
+}
+.Introduction_box ul li {
+    padding: 0 30px;
+}
+.Introduction_box ul li img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #9fa5b5;
+}
+.Signature {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.Signature h1 {
+    font-family: "NanumMyeongjo-Regular";
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+#Signature_product {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.item {
+    width: 100%;
+}
+.item ul {
+    display: flex;
+    justify-content: center;
+}
+.item ul li {
+    cursor: pointer;
+    position: relative;
+    width: 360px;
+    height: 280px;
+}
+.item ul li img {
+    width: 360px;
+    height: 280px;
+}
+.sighover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 360px;
+    height: 280px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    line-height: 90px;
+    display: none;
+    font-family: "Pretendard-1.3.6";
+    z-index: 10;
+}
+.item ul li:hover .sighover {
+    display: block;
+}
+.sighover a {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+}
+.sighover p {
+    color: #fff;
+    font-size: 18px;
+}
+.brand {
+    width: 100%;
+    max-width: 1400px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+}
+.brand iframe {
+    width: 800px;
+    height: 800px;
+}
+.tab_left {
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    margin-right: 150px;
+}
+.tab_left p {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border: 1px solid #3859aa;
+    background-color: #f3f6fc;
+    font-size: 18px;
+    font-family: "Cafe24Oneprettynight";
+    font-weight: bolder;
+}
+.tab_left p:hover {
+    background-color: #98acdb;
+}
+.name_bar {
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    height: 50px;
+    background-color: #dadada;
+}
+.info {
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    display: none;
+}
+.bottombar {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.leftcom {
+    width: 50%;
+    height: 200px;
+    background-color: #000;
+}
+.leftcom p {
+    color: #dadada;
+}
+.leftcom ul {
+    display: flex;
+    justify-content: center;
+}
+.right_notice {
+    width: 50%;
+    height: 200px;
+    background-color: #a8aebd;
+}
+.minframe {
+    width: 100%;
+    max-width: 1400px !important;
+}

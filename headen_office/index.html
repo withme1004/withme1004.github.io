@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/banner_slide.css">
+    <link rel="stylesheet" href="css/ui.css">
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/headen.js"></script>
+    <title>해든오피스가구</title>
+</head>
+<body>
+    <main>
+        <div class="nav_bar">
+        <header id="head">
+            <div class="logo"><img src="images/logo.jpg" alt=""></div>
+            <nav id="navmenu">
+                <ul>
+                    <li><a href="#">책상</a>
+                        <ul class="nav_hoverbox">
+                            <li><a href="#">사무용 책상</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">의자</a>
+                        <ul class="nav_hoverbox">
+                            <li><a href="#">사무용 의자</a></li>
+                            <li><a href="#">중역용 의자</a></li>
+                            <li><a href="#">회의/학원용 의자</a></li>
+                            <li><a href="#">컴퓨터/기능성 의자</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">테이블</a>
+                        <ul class="nav_hoverbox">
+                            <li><a href="#">회의용 테이블</a></li>
+                            <li><a href="#">연수/교구용 테이블</a></li>
+                            <li><a href="#">포밍/작업용 테이블</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">책장/옷장</a>
+                        <ul class="nav_hoverbox">
+                            <li><a href="#">사무용책장/옷장</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">사이드장/서랍</a></li>
+                    <li><a href="#">EVENT</a></li>
+                    <li><a href="#">REVIEW</a></li>
+                    <li><a href="#">LOOK BOOK</a></li>
+                </ul>
+            </nav>
+            <div class="desk_icon">
+                <a href="#"><img src="images/search.png" alt=""></a>
+                <a href="#"><img src="images/mypage.png" alt=""></a>
+                <a href="#"><img src="images/menubar.png" alt=""></a>
+            </div>
+        </header>
+        </div>
+        <div class="banner_slide">
+            <div class="container">
+                <ul>
+                  <li class="slide">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/banner_1.jpg" alt="photo1" />
+                    <div class="text">
+                        <h1>메쉬 의자</h1>
+                        <p>편안한 느낌을 주는 사무용/회의용 의자</p>
+                        <button>more wiew</button>
+                    </div>
+                  </li>
+                  <li class="slide">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/banner_2.jpg" alt="photo2" />
+                    <div class="text">
+                        <h1>퍼즐 책상</h1>
+                        <p>보기좋고 간편한 공간을 제공하는 책상</p>
+                        <button>more wiew</button>
+                    </div>
+                  </li>
+                  <li class="slide">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/banner_3.jpg" alt="photo3" />
+                    <div class="text">
+                        <h1>사무용 책장</h1>
+                        <p>수납에 효율적이고 보안에 뛰어난 책장</p>
+                        <button>more wiew</button>
+                    </div>
+                  </li>
+                </ul>
+                <a class="prev" onclick="plusSlides(-1)"><img src="images/slide_l.png" alt=""></a>
+                <a class="next" onclick="plusSlides(1)"><img src="images/slide_r.png" alt=""></a>
+              </div>
+              <div style="text-align: center" class="dot_wrap">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+        </div>
+        <div class="md_pick">
+          <div class="title">
+          <h1 style="display: ;">MD's Pick</h1>
+          </div>
+            <ul>
+                <li><img src="images/mdpick01.JPG" alt="">
+                    <div class="md_hoverpage">
+                      <ul>
+                        <li><p>포밍 회의/작업용 테이블</p></li>
+                        <li>(고정식/접이식)</li>
+                        <li>55,000원</li>
+                      </ul>
+                    </div>
+                </li>
+                <li><img src="images/mdpick02.jpg" alt="">
+                  <div class="md_hoverpage">
+                    <ul>
+                      <li><p>포밍 회의/작업용 테이블</p></li>
+                      <li>(고정식/접이식)</li>
+                      <li>55,000원</li>
+                    </ul>
+                  </div>
+                </li>
+                <li><img src="images/mdpick03.JPG" alt="">
+                  <div class="md_hoverpage">
+                    <ul>
+                      <li><p>포밍 회의/작업용 테이블</p></li>
+                      <li>(고정식/접이식)</li>
+                      <li>55,000원</li>
+                    </ul>
+                  </div>
+                </li>
+                <li><img src="images/mdpick04.JPG" alt="">
+                  <div class="md_hoverpage">
+                    <ul>
+                      <li><p>포밍 회의/작업용 테이블</p></li>
+                      <li>(고정식/접이식)</li>
+                      <li>55,000원</li>
+                    </ul>
+                  </div>
+                </li>
+                <li><img src="images/mdpick01.JPG" alt="">
+                  <div class="md_hoverpage">
+                    <ul>
+                      <li><p>포밍 회의/작업용 테이블</p></li>
+                      <li>(고정식/접이식)</li>
+                      <li>55,000원</li>
+                    </ul>
+                  </div>
+                </li>
+            </ul>
+        </div>
+        <div class="product_box1">
+          <div class="color"></div>
+        </div>
+        
+        <div class="title"><h1>Category BEST</h1></div>
+        <div class="best">
+          <div class="best_tab">
+            <ul>
+              <li class="tablink" onmouseover="tab(0)">사무용책상</li>
+              <li class="tablink" onmouseover="tab(1)">의자</li>
+              <li class="tablink" onmouseover="tab(2)">연수/교구용 테이블</li>
+              <li class="tablink" onmouseover="tab(3)">회의용 테이블</li>
+              <li class="tablink" onmouseover="tab(4)">사무용책장</li>
+            </ul>
+          </div>
+          <div class="best_wrap">
+          <div class="best_content">
+            <ul>
+              <li><img src="images/categorybest1-1.JPG" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+              <li><img src="images/chair2.JPG" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+              <li><img src="images/chair3.JPG" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+            </ul>
+          </div>
+          <div class="best_content">
+            <ul>
+              <li><img src="images/best2-1.JPG" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+              <li><img src="images/best2-2.PNG" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+              <li><img src="images/bestcontent2-3.jpg" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+            </ul>
+          </div>
+          <div class="best_content">
+            <ul>
+              <li><img src="images/bestcontent3-1.jpg" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+              <li><img src="images/bestcontent3-2.jpg" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+            </ul>
+          </div>
+          <div class="best_content">
+            <ul>
+              <li><img src="images/bestcontent4-1.jpg" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+              <li><img src="images/bestcontent4-2.jpg" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+            </ul>
+          </div>
+          <div class="best_content">
+            <ul>
+              <li><img src="images/bestcontent5-1.jpg" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+              <li><img src="images/bestcontent5-2.jpg" alt="">
+                <span>L형 사무용 사무실 퍼즐형책상</span>
+                <span>color : black</span>
+                <p>112,000</p>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+        <div class="Ctnbox">
+          <div class="Ctn_left"></div>
+          <div class="Ctn_right"></div>
+        </div>
+        
+        <div class="title"><h1>공간별 추천제품</h1></div>
+        <div id="click_wrap">
+          <div id="left" class="office_main"></div>
+          <div id="right">
+            <div id="click_menu">
+              <h1>사무용 공간</h1>
+              <ul>
+                <li class="office_link" onclick="office(0)">사무용책상</li>
+                <li class="office_link" onclick="office(1)">사무/중역용의자</li>
+                <li class="office_link" onclick="office(2)">사무/컴퓨터/기능성의자</li>
+                <li class="office_link" onclick="office(3)">사무용책장/옷장</li>
+              </ul>
+            </div>
+            <div class="office_right">
+            <div id="click_content" class="office_content">
+              <ul>
+                <li><img src="images/office_desk01.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/office_desk02.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/office_desk03.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/office_desk04.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li><img src="images/office_desk05.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/office_desk06.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div id="click_content" class="office_content">
+              <ul>
+                <li><img src="images/officer_chair01.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/officer_chair02.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div id="click_content" class="office_content">
+              <ul>
+                <li><img src="images/office_chair01.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/office_chair02.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/office_chair03.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/office_chair04.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div id="click_content" class="office_content">
+              <ul>
+                <li><img src="images/office_closet01.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/office_closet02.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/office_closet03.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div id="click_wrap">
+          <div id="left" class="conference"></div>
+          <div id="right">
+            <div id="click_menu">
+              <h1>회의/학원용 공간</h1>
+              <ul>
+                <li class="executive_link" onclick="executive(0)">회의/학원용의자</li>
+                <li class="executive_link" onclick="executive(1)">회의용테이블</li>
+              </ul>
+            </div>
+            <div  class="executive_right">
+            <div id="click_content" class="executive_content">
+              <ul>
+                <li><img src="images/conference_chair.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div id="click_content" class="executive_content">
+              <ul>
+                <li><img src="images/conference_table01.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/conference_table02.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/conference_table03.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/conference_table04.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li><img src="images/conference_table05.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div id="click_wrap">
+          <div id="left" class="training"></div>
+          <div id="right">
+            <div id="click_menu">
+              <h1>그외 공간</h1>
+              <ul>
+                <li class="training_link" onclick="training(0)">연수/교구용테이블</li>
+                <li class="training_link" onclick="training(1)">포밍/작업용테이블</li>
+                <li class="training_link" onclick="training(2)">사이드장/책상서랍외</li>
+              </ul>
+            </div>
+            <div class="training_right">
+            <div id="click_content" class="training_content">
+              <ul>
+                <li><img src="images/training_table01.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/training_table02.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/training_table03.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/training_table04.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li><img src="images/training_table05.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div id="click_content" class="training_content">
+              <ul>
+                <li><img src="images/working_table.png" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div id="click_content" class="training_content">
+              <ul>
+                <li><img src="images/side_drawer01.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+                <li><img src="images/side_drawer02.jpg" alt="">
+                  <div class="b">
+                    <div class="name">
+                    <span>H형 연수용 접이식 테이블(학교 학원 교회 강의실)</span>
+                    <p>120,000원</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div id="bottom_box">
+          <div class="container_scroll">
+         
+              <div class="scroll_left"> 
+                  
+                <h4>고객센터</h4>
+                <div class="text_01" style="letter-spacing:1.2px; font-size: 35px;">010-3114-1829</div>
+                
+                <div class="text_02">평일(월~금) AM 9:00 - PM 6:30 <br>주말, 공휴일 휴무</div>
+  
+              </div>
+              
+              <div class="scroll_right"> 
+              
+                
+                <div class="tabwrap">
+                    <div class="notice_box"> 
+                      <h3>NOTICE</h3>
+                      <ul>
+            <li>
+                <a href="#">공지사항</a>
+            </li>
+            <li>
+                <a href="#">공지사항</a>
+            </li>
+            <li>
+                <span></span>
+                <a href="#">공지사항</a>
+            </li>
+            <li>
+                <span></span>
+                <a href="#">공지사항</a>
+            </li>
+            <li>
+                <span></span>
+                <a href="#">공지사항</a>
+            </li>
+            <li>
+                <span></span>
+                <a href="#">공지사항</a>
+            </li>
+        </ul>      
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="ftbar">
+          <div>
+              <div>
+                  <h2>고객센터</h2>
+                  <strong>010-3114-1829</strong>
+                  
+                  <small>Email: gumguy@naver.com<br>상담시간 am 09 ~ pm 18<br>주말공휴일휴무</small>
+              </div>
+              <div>
+                  <h2>계좌정보</h2>
+                 
+                  <p>
+                      <b>국민은행</b>
+                      <strong>868201-00-045615</strong>
+                  </p>
+                  <span>예금주 : 임재학<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (해든오피스가구)</span>
+              </div>
+               <div>
+                  <h2>배송정보</h2>  
+                  <span><h3>★1인배송/1층도착 원칙</h3> <br>★크고 무거운 가구특성상 <br> &nbsp; &nbsp;하차를 도와주실분이<br> &nbsp; &nbsp;꼭 필요합니다</span>
+              </div>
+              <div>
+                  <h2>커뮤니티</h2>
+                  <ul><li><a href="https://haedengagu.com/board/gallery/list.html?board_no=8">시공사진</a></li>
+                      <li><a href="https://haedengagu.com/board/product/list.html?board_no=4">상품후기</a></li>
+                      <li><a href="https://haedengagu.com/board/product/list.html?board_no=6">상품문의</a></li>
+                      <li><a href="https://haedengagu.com/board/free/list.html?board_no=1002">견적요청</a></li>
+                      <li><a href="https://haedengagu.com/board/free/list.html?board_no=1">배송비</a></li>
+                      <li><a href="https://haedengagu.com/product/list.html?cate_no=54">개인결제</a></li>
+                  </ul></div>
+              <div>
+                  <h2>오시는길</h2>
+                  <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d50740.475997475085!2d126.950407!3d37.359557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b678eae08700b%3A0xe483bb63f14ea261!2z6rWw7Y-s7IK867O07Iqk7Lm07J2067mE7KaI!5e0!3m2!1sko!2skr!4v1678267859920!5m2!1sko!2skr" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+             </div>
+          </div>
+      </div>
+
+      <div class="footbar">
+        <ul>
+            <li>홈</li>
+            <li>회사소개</li>
+            <li>이용약관</li>
+            <li>개인정보처리방침</li>
+            <li>이용안내</li>
+        </ul>
+    </div>
+
+    <div class="story">
+      <div class="storyimg">
+          <img src="images/logo.jpg" alt="">
+      </div>
+      <div>
+          <p>법인명 : 해든오피스가구    출고지및반품지 : 경기도 군포시 농심로2 삼보스카이비즈 B2F 201호    주소 : 경기도 성남시 분당구 야탑동 장미로139    대표자 : 임재학</p>
+          <p>사업자등록번호 : 693-43-00788       전화 : 010-3114-1829 FAX : 0303-3448-1829</p>
+          <p>통신판매업 신고: 제2022-성남분당A-0369호 개인정보관리책임자 : ()     E-mail: gumguy@naver.com</p>
+          <p>COPYRIGHT (C) 해든오피스가구. ALL RIGHT RESERVED.DESIGN BY ZINDAM</p>
+      </div>
+      <div>
+          <img src="images/ft_ini.png" alt="">
+      </div>
+  </div>
+      
+      
+    </main>
+</body>
+<script>
+    // 베너슬라이드 스크립트
+    let slideIndex = 1;
+    showSlide(slideIndex);
+    function plusSlides(n) {
+      showSlide((slideIndex += n)); //slideIndex = slideIndex + n
+    }
+    function currentSlide(n) {
+      showSlide((slideIndex = n));
+    }
+    setInterval(function () {
+      plusSlides(1);
+    }, 3000);
+    // n은 plusSlide의 매개변수
+    function showSlide(n) {
+      let slides = document.getElementsByClassName("slide");
+      let dots = document.getElementsByClassName("dot");
+      let len = slides.length;
+      if (n > len) {
+        slideIndex = 1;
+      } else if (n < 1) {
+        slideIndex = len;
+      }
+      for (let i = 0; i < len; i++) {
+        slides[i].className += " fade";
+        slides[i].style.display = "none";
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      console.log(slideIndex);
+    } //베너슬라이드 스크립트끝
+  </script>
+</html>

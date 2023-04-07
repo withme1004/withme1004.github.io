@@ -1,0 +1,25 @@
+@media screen and (max-width:1024px) {
+    main {width: 100%; max-width: 1024px; margin: 0 auto;}
+    header {width: 1024px; height: 50px;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;}
+    .logo img {width: 110px; height: 50px;}
+    #navmenu ul li:nth-child(6) , #navmenu ul li:nth-child(7) , #navmenu ul li:nth-child(8) {
+        display: none;
+    }
+    nav > ul > li {width: 110px;}
+    nav > ul > li > a {
+        font-size: 14px;
+    }
+    .md_pick {
+        display: none;
+    }
+    .best {width: 100%;
+    max-width: 1024px;}
+    .Ctnbox {display: none;}
+    #left {display: none;}
+    .ftbar {width: 100%; max-width: 1024px;}
+    .ftbar > div > div:nth-child(5) {display: none;}
+    .ftbar > div > div {width: 20%;}
+}
